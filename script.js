@@ -8,7 +8,7 @@ const addBtn = document.getElementById('addBtn');
 const taskList = document.getElementById('taskList');
 const filterBtns = document.querySelectorAll('.filter-btn');
 
-// Event Listeners
+// Event Listeners      
 addBtn.addEventListener('click', addTask);
 taskInput.addEventListener('keypress', (e) => e.key === 'Enter' && addTask());
 
